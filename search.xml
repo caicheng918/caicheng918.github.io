@@ -187,9 +187,9 @@
 <p> 4、在此repositories里进行Releases，填写版本号（自定义），例如填写版本号1.0.0，以public方式发布。</p>
 <p><img src= "https://cdn.jsdelivr.net/gh/caicheng918/CDN@2.3/photo/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/caicheng918/CDN@2.3/103/1031.jpg" alt="1031"></p>
 <p>5、在文章或代码内引用时，必须以如下方式引用：</p>
-<p><a href="https://cdn.jsdelivr.net/gh/%E4%BD%A0%E7%9A%84%E7%94%A8%E6%88%B7%E5%90%8D/%E4%BD%A0%E7%9A%84%E4%BB%93%E5%BA%93%E5%90%8D@%E5%8F%91%E5%B8%83%E7%9A%84%E7%89%88%E6%9C%AC%E5%8F%B7/%E6%96%87%E4%BB%B6%E8%B7%AF%E5%BE%84">https://cdn.jsdelivr.net/gh/你的用户名/你的仓库名@发布的版本号/文件路径</a></p>
+<p><code>https://cdn.jsdelivr.net/gh/你的用户名/你的仓库名@发布的版本号/文件路径</code></p>
 <p>例如引用我的一张图片：</p>
-<p><a href="https://cdn.jsdelivr.net/gh/caicheng918/CDN@2.2/101/image-20201206090642288.png">https://cdn.jsdelivr.net/gh/caicheng918/CDN@2.2/101/image-20201206090642288.png</a></p>
+<p><code>https://cdn.jsdelivr.net/gh/caicheng918/CDN@2.2/101/image-20201206090642288.png</code></p>
 ]]></content>
       <tags>
         <tag>教程</tag>
