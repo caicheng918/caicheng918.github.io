@@ -177,7 +177,7 @@
       </tags>
   </entry>
   <entry>
-    <title>使用Github和jsDeliver作为图床</title>
+    <title>使用Github和jsDelivr作为图床</title>
     <url>/2021/02/28/%E4%BD%BF%E7%94%A8Github%E5%92%8Cjsdelivr%E4%BD%9C%E4%B8%BA%E5%9B%BE%E5%BA%8A/</url>
     <content><![CDATA[<h1 id="创建专门的图片仓库"><a href="#创建专门的图片仓库" class="headerlink" title="创建专门的图片仓库"></a>创建专门的图片仓库</h1><p>1、在github新建一个public的repositories，名称随意。</p>
 <p>2、在本地新建一个文件夹，将仓库clone到本地。</p>
