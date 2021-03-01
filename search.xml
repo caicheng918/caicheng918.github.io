@@ -75,7 +75,7 @@
       </tags>
   </entry>
   <entry>
-    <title>Windows10使用Hexo和Vercel搭建个人博客</title>
+    <title>使用Hexo和Github搭建个人博客</title>
     <url>/2020/11/11/%E4%BD%BF%E7%94%A8Hexo%E5%92%8CVercel%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<p><u>注：由于gitee访问速度较慢，需要手动部署，以及一些其他原因，本站已改为github+vercel部署的方式，教程仅供参考</u></p>
 <p>仅为个人经验总结，应该有更好的搭建方式。</p>
@@ -186,10 +186,20 @@
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git status &#x2F;&#x2F; 查看状态 </span><br><span class="line">git add . &#x2F;&#x2F; 注意英文句号</span><br><span class="line">git commit -m &#39;注释&#39; &#x2F;&#x2F; 提交更新</span><br><span class="line">git push</span><br></pre></td></tr></table></figure>
 <p> 4、在此repositories里进行Releases，填写版本号（自定义），例如填写版本号1.0.0，以public方式发布。</p>
 <p><img src= "https://cdn.jsdelivr.net/gh/caicheng918/CDN@2.3/photo/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/caicheng918/CDN@2.3/103/1031.jpg" alt="1031"></p>
-<p>5、在文章或代码内引用时，必须以如下方式引用：</p>
+<p>5、在文章或代码内引用时，必须以如下方式引用（版本号不写也可）：</p>
 <p><code>https://cdn.jsdelivr.net/gh/你的用户名/你的仓库名@发布的版本号/文件路径</code></p>
 <p>例如引用我的一张图片：</p>
 <p><code>https://cdn.jsdelivr.net/gh/caicheng918/CDN@2.2/101/image-20201206090642288.png</code></p>
+<h1 id="快捷使用PIcGo上传图片"><a href="#快捷使用PIcGo上传图片" class="headerlink" title="快捷使用PIcGo上传图片"></a>快捷使用PIcGo上传图片</h1><p>1、PicGo下载地址：<a href="https://github.com/Molunerfinn/PicGo/releases">https://github.com/Molunerfinn/PicGo/releases</a></p>
+<p>2、安装完成后，在github的头像处点击setting，选择Developer setting，再选择Personal access tokens，然后点击Generate new token，勾选repo项，然后点击Generate token。</p>
+<p>3、复制这个token。打开PicGo，在图床设置里找到Github图床，如图设置：</p>
+<p><img src= "https://cdn.jsdelivr.net/gh/caicheng918/CDN@2.3/photo/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/caicheng918/CDN/photo/20210301143247.png" alt="1033"></p>
+<p><code>仓库名：用户名/仓库名</code></p>
+<p><code>分支名：main/master（自行查看）</code></p>
+<p><code>Token：复制的token</code></p>
+<p><code>存储路径：仓库存储路径</code></p>
+<p><code>自定义域名：https://cdn.jsdelivr.net/gh/用户名/图床仓库名。</code></p>
+<p>上传完成后在相册里可以找到完整的url，然后引用即可。</p>
 ]]></content>
       <tags>
         <tag>教程</tag>
